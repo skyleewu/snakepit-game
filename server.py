@@ -1,10 +1,12 @@
-import os
 import asyncio
 import json
+import os
+
 from aiohttp import web
 
 import settings
 from game import Game
+
 
 async def handle(request):
     ALLOWED_FILES = ["index.html", "style.css"]
@@ -57,6 +59,7 @@ async def wshandler(request):
 
     print("Closed connection")
     return ws
+
 
 async def game_loop(game):
     game.running = True

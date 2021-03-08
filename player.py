@@ -4,14 +4,15 @@ from random import randint
 import settings
 from datatypes import Vector, Position, Draw
 
+
 class Player:
 
-    HEAD_CHAR = "%"
-    BODY_CHAR = "@"
-    TAIL_CHAR = "*"
+    HEAD_CHAR = "@"
+    BODY_CHAR = "*"
+    TAIL_CHAR = "+"
 
     DEAD_HEAD_CHAR = "x"
-    DEAD_BODY_CHAR = "@"
+    DEAD_BODY_CHAR = "*"
     DEAD_TAIL_CHAR = "+"
 
     UP = Vector(0, -1)

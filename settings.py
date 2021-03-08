@@ -5,8 +5,8 @@ MAX_PLAYERS = 10
 MAX_TOP_SCORES = 15
 NUM_COLORS = 6  # set according to the number of css classes
 
-FIELD_SIZE_X = 50  # game field size in characters
-FIELD_SIZE_Y = 25
+FIELD_SIZE_X = 100  # game field size in characters
+FIELD_SIZE_Y = 50
 
 INIT_LENGHT = 3
 
